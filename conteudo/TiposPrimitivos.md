@@ -1,7 +1,6 @@
 ## Tipos Primitivos
 
-
-#### Tipos Numéricos Inteiros
+##### TIPOS NUMÉRICOS INTEIROS
 
 |    Tipo   |   Tamanho   |                  Valores                    |  Valor Padrão |
 | :--------:| :---------: | :-----------------------------------------: | :-----------: |
@@ -11,7 +10,7 @@
 |long       | 64 bits     | -9223372036854770000 a 9223372036854770000  |  0L           |
 
 
-### Tipos Numéricos com Ponto Flutuante
+##### TIPOS NUMÉRICOS COM PONTO FLUTUANTE
 
 |    Tipo   |   Tamanho   |                  Valores                    |  Valor Padrão |
 | :--------:| :---------: | :-----------------------------------------: | :-----------: |
@@ -19,15 +18,24 @@
 |double     | 64 bits     | -4,94E-307 a 1,79E+308                      |  0.0          |
 
 
-### Um Caractere Unicode
+##### UM CARACTERE UNICODE
 
 |    Tipo   |   Tamanho   |                  Valores                    |  Valor Padrão |
 | :--------:| :---------: | :-----------------------------------------: | :-----------: |
 |char       | 16 bits     | '\u0000' a '\uFFFF'                         |  '\u000'      |
 
 
-### Valor Verdade
+##### VALOR VERDADE
 
 |    Tipo   |   Tamanho   |                  Valores                    |  Valor Padrão |
 | :--------:| :---------: | :-----------------------------------------: | :-----------: |
 |boolean    | 1 bit       | {false, true}                               |  false        |
+
+
+
+### Variáveis 
+
+* Não pode iniciar com dígito (utilizar uma letra ou _)
+* Não pode possuir espaços em branco
+* Não utilizar acentos
+* Utilizar padrão "camel case"
