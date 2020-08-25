@@ -12,7 +12,6 @@ public class uri1021 {
 		
 		double valor = sc.nextDouble();
 		
-		
 		nota_100 = (int) (valor / 100);
 		valor %= 100.0;
 		nota_50 = (int) (valor / 50);
@@ -57,7 +56,6 @@ public class uri1021 {
 		System.out.printf("%n%.0f moeda(s) de R$ 0.10", moeda_010);
 		System.out.printf("%n%.0f moeda(s) de R$ 0.05", moeda_005);
 		System.out.printf("%n%.0f moeda(s) de R$ 0.01", moeda_001);
-		
 		
 		sc.close();
 	}
