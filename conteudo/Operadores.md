@@ -39,11 +39,11 @@ Visualizamos como exemplo os valores booleanos de aval:
 ```java
 int a = 3, b = 1;
 
-aval = a == b;      //aval é false
-aval = a != b;      //aval é true
-aval = a > b;       //aval é true
-aval = a >= b;      //aval é true
-aval = a < b;       //aval é false
-aval = a <= b;      //aval é false
+aval = a == b;      //aval resulta false
+aval = a != b;      //aval resulta true
+aval = a > b;       //aval resulta true
+aval = a >= b;      //aval resulta true
+aval = a < b;       //aval resulta false
+aval = a <= b;      //aval resulta false
 ```
 
