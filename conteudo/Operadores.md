@@ -30,3 +30,20 @@ a /= b;  or  a = a / b;
 a %= b;  or  a = a % b;
 ```
 
+## Operadores de Igualdade e Relacionais
+
+Os operadores de igualdade analisam se o valor ou o resultado da expressão lógica à esquerda é **igual (“==”), diferente (“!=”), menor ("<"), menor ou igual ("<="), maior (">") ou maior ou igual (">=")** ao da direita, retornando um valor booleano.
+
+Visualizamos como exemplo os valores booleanos de aval:
+
+```java
+int a = 3, b = 1;
+
+aval = a == b;      //aval é false
+aval = a != b;      //aval é true
+aval = a > b;       //aval é true
+aval = a >= b;      //aval é true
+aval = a < b;       //aval é false
+aval = a <= b;      //aval é false
+```
+
