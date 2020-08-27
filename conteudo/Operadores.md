@@ -4,7 +4,7 @@
 
 Realizam operações matemáticas entre duas variáveis e retornam o resultado.
 
-| Símbolo |            Operadoradores          |   
+| Símbolo |              Descrição             |   
 | :-----: | :--------------------------------: |
 |    +    |          Operador de adição        | 
 |    -    |        Operador de subtração       | 
