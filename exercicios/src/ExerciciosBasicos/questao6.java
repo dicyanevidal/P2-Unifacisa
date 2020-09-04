@@ -1,4 +1,4 @@
-// Escreva um programa que receba como entrada 50 números e exiba a soma dos que são múltiplos de 3.
+// Escreva um programa que receba como entrada 50 nÃºmeros e exiba a soma dos que sÃ£o mÃºltiplos de 3.
 
 import java.util.Scanner;
 
@@ -13,14 +13,12 @@ public class questao6 {
 		while (x < 10) {
 			int entrada = sc.nextInt();
 			
-			if (x % 3 == 0) {
+			if (x % 3 == 0) 
 				soma += x;
-			}
-			
 			x += 1;
 		}
 		
-		System.out.println("A soma dos mútiplos de 3 entre 0 e 50 é: " + soma);
+		System.out.println("A soma dos mÃºtiplos de 3 entre 0 e 50 Ã©: " + soma);
 		
 		sc.close();
 
