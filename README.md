@@ -6,4 +6,6 @@ Repositório contendo conteúdo da disciplina de Programação II do curso de Si
 
 [Tipos de Operadores](https://github.com/dicyanevidal/P2-Unifacisa/blob/master/conteudo/Operadores.md) 
 
+[Estruturas Condicionais](https://github.com/dicyanevidal/P2-Unifacisa/blob/master/conteudo/EstruturasCondicionais.md)
+
 [Comandos Git](https://gist.github.com/dicyanevidal/914c8bb0eede1aecd6af87f84ba97624) 
