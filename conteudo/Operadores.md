@@ -23,7 +23,7 @@ System.out.println(a);  // O valor de a resultará em 3.
 Outras opções desse tipo de operação:
 ```java
 a -= b;  or  a = a - b;
-a -= b;  or  a = a - b|
+a -= b;  or  a = a - b;
 a *= b;  or  a = a * b;
 a *= b;  or  a = a * b;
 a /= b;  or  a = a / b;
