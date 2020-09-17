@@ -28,7 +28,7 @@ Segue um exemplo abaixo aplicando while:
  
  ![for](https://user-images.githubusercontent.com/62221250/93495696-c6d06700-f8e4-11ea-871c-b4226cc15874.png)
 
-# Estrutura *do-while*
+## Estrutura *do-while*
 
 A estrutura repetitiva do-while (faça-enquanto) também é um laço de repetição, entretanto, a diferença dele para os outros, é que o bloco de instrução será executado no mínimo uma única vez. 
 O do-while possui uma construção simples, fazemos um laço de repetição que antes de verificar se deve ou se repetir, primeiro executa-se o bloco de instrução.
