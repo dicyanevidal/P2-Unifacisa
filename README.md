@@ -8,4 +8,10 @@ Repositório contendo conteúdo da disciplina de Programação II do curso de Si
 
 [Estruturas Condicionais](https://github.com/dicyanevidal/P2-Unifacisa/blob/master/conteudo/EstruturasCondicionais.md)
 
-[Comandos Git](https://gist.github.com/dicyanevidal/914c8bb0eede1aecd6af87f84ba97624) 
+[Estruturas de Repetição](https://github.com/dicyanevidal/P2-Unifacisa/blob/master/conteudo/EstruturasDeRepeticao.md)
+
+[Scanner](https://github.com/dicyanevidal/P2-Unifacisa/blob/master/conteudo/Scanner.md)
+
+[Classes e Objetos](https://github.com/dicyanevidal/P2-Unifacisa/blob/master/conteudo/ClassesEObjetos.md)
+
+[Comandos Git](https://gist.github.com/dicyanevidal/914c8bb0eede1aecd6af87f84ba97624 )
