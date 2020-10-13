@@ -31,7 +31,7 @@ letras = new char[15];         /Exemplo prático
 nome = new string[30];         /Exemplo prático
 ```
 
-_A declaração e instanciação do vetor também podem ser feitas em uma única instrução:_
+#### A declaração e instanciação do vetor também podem ser feitas em uma única instrução:
 
 ```java
 tipo[] nomeArray = new tipo[tamanho];  /Exemplo base
