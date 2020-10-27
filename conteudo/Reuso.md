@@ -1,3 +1,24 @@
+# Reuso 
+
+Como o próprio nome diz, *Reuso* é a reutilização de algo. No nosso caso, é visto como a reutilização de um software. É você criar novos objetos através de objetos já existentes, sem precisar recriar ou duplicar.
+
+Em Java, dois bons representantes de reuso são: Herança e Composição. Ambos possibilitam a reutilização de uma classe, entretanto, possuem utilizações distintas. Sabendo disso, listamos algumas vantagens de ambos.
+
+ -|Vantagens|
+:--------:|:-------:|
+Composição|Organização; Coesão; Flexibilidade;| 
+  Herança |----
+
+Do meu ponto de vista a Composição é a melhor de se trabalhar, pois, é possível escolher qual atributo da classe você deseja reutilizar. Ao contrário da herança, a qual herda todos os atributos da classe tonando desnecessário e contribui nos riscos de erro. 
+Para entendermos melhor o funcionamento de cada um, veremos abaixo suas definições:
+
 ## Composição
 
-É um tipo de associação que permite que um objeto contenha outro.
+É um tipo de associação que permite que um objeto contenha outro. Basicamente funciona como uma forma de comunicação, uma troca de informações de um objeto para outro onde, e este se encarrega de obter os dados e buscar formas de trabalhar em cima dele.
+
+Costuma-se dizer que composição é o ato de delegar trabalho para outro objeto. Isso permite que seu código se torne mais organizado, menor e mais seguro.
+
+Para enxergar a prática, realizamos o exercício proposto: [Exercício sobre Reuso](https://github.com/eduardolfalcao/P2-Unifacisa/blob/master/exercicios/Reuso.md)
+
+## Herança
+
