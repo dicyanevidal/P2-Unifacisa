@@ -22,4 +22,4 @@ Para enxergar a prática, realizamos o exercício proposto: [Exercício sobre Re
 
 ## Herança
 
-Também é um tipo de associação, entretanto, a Herança permite que uma classe herde **todos** os dados e comportamentos de outra. É bem aproveitado quando se identifica que o atributo ou método de uma classe será igual para as outras.
+Também é um tipo de associação. Entretanto, a Herança permite que uma classe herde **todos** os dados e comportamentos de outra. É bem aproveitado quando se identifica que o atributo ou método de uma classe será igual para as outras.
