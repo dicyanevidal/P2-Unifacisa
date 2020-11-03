@@ -6,8 +6,8 @@ Em Java, dois bons representantes de reuso são: Herança e Composição. Ambos 
 
  -|Vantagens|
 :--------:|:-------:|
-Composição|Organização; Coesão; Flexibilidade;| 
-  Herança |----
+Composição|Organização; Coesão; Flexibilidade; 
+  Herança |Reutilização do código;
 
 Do meu ponto de vista a Composição é a melhor de se trabalhar, pois, é possível escolher qual atributo da classe você deseja reutilizar. Ao contrário da herança, a qual herda todos os atributos da classe tonando desnecessário e contribui nos riscos de erro. 
 Para entendermos melhor o funcionamento de cada um, veremos abaixo suas definições:
@@ -22,3 +22,4 @@ Para enxergar a prática, realizamos o exercício proposto: [Exercício sobre Re
 
 ## Herança
 
+Também é um tipo de associação, entretanto, a Herança permite que uma classe herde **todos** os dados e comportamentos de outra. É bem aproveitado quando se identifica que o atributo ou método de uma classe será igual para as outras.
