@@ -23,3 +23,7 @@ Para enxergar a prática, realizamos o exercício proposto: [Exercício sobre Re
 ## Herança
 
 Também é um tipo de associação. Entretanto, a Herança permite que uma classe herde **todos** os dados e comportamentos de outra. É bem aproveitado quando se identifica que o atributo ou método de uma classe será igual para as outras.
+
+Para enxergarmos melhor como funciona o uso da Herança, abaixo dispomos de um diagrama UML. Ao lado esquerdo, vemos a construção de duas classes com atributos idênticos e ao lado direito, a utilização da Herança, onde é possível observar o reuso da classe principal (Conta), acrescentando apenas atributos adicionais, resultando em uma simplificação do código.
+
+![Apresentação1](https://user-images.githubusercontent.com/62221250/98054568-0bbf4700-1e1a-11eb-82ce-2ac04688d1db.png)
