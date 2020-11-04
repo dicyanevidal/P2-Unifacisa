@@ -9,7 +9,7 @@ Em Java, dois bons representantes de reuso são: Herança e Composição. Ambos 
 Composição|Organização; Coesão; Flexibilidade; 
   Herança |Reutilização do código;
 
-Do meu ponto de vista a Composição é a melhor de se trabalhar, pois, é possível escolher qual atributo da classe você deseja reutilizar. Ao contrário da herança, a qual herda todos os atributos da classe tonando desnecessário e contribui nos riscos de erro. 
+Ambas as possibilidades de Reuso são ótimas de se trabalharem, dependendo da finalidade, são extremamente úteis. Na minha visão, a Composição é a melhor de se trabalhar, pois é possível escolher qual atributo da classe você deseja reutilizar. Ao contrário da herança, a qual herda todos os atributos da Superclasse, o que em determinados casos como a criação de uma subclasse contento os mesmos atributos da superclasse, é útil, mas em casos que a subclasse criada não contém os mesmos atributos, acaba tonando desnecessário e contribui nos riscos de erro. 
 Para entendermos melhor o funcionamento de cada um, veremos abaixo suas definições:
 
 ## Composição
@@ -18,7 +18,30 @@ Para entendermos melhor o funcionamento de cada um, veremos abaixo suas definiç
 
 Costuma-se dizer que composição é o ato de delegar trabalho para outro objeto. Isso permite que seu código se torne mais organizado, menor e mais seguro.
 
-Para enxergar a prática, realizamos o exercício proposto: [Exercício sobre Reuso](https://github.com/eduardolfalcao/P2-Unifacisa/blob/master/exercicios/Reuso.md)
+Um exemplo prático do reuso por composição:
+
+```java
+class Cliente {
+  String nome;
+  int cpf
+  //....
+}
+
+class Conta {
+  int numero;
+  double limite
+  Cliente titular;
+  //....
+}
+
+
+class Main {
+  public static void main(String [] args) {
+    Cliente c = new Cliente();
+    Conta n1 = new Conta();
+    n1.titular = c;
+    //...
+```
 
 ## Herança
 
@@ -27,3 +50,9 @@ Também é um tipo de associação. Entretanto, a Herança permite que uma class
 Para enxergarmos melhor como funciona o uso da Herança, abaixo dispomos de um diagrama UML. Ao lado esquerdo, vemos a construção de duas classes com atributos idênticos e ao lado direito, a utilização da Herança, onde é possível observar o reuso da classe principal (Conta), acrescentando apenas atributos adicionais, resultando em uma simplificação do código.
 
 ![Apresentação1](https://user-images.githubusercontent.com/62221250/98054568-0bbf4700-1e1a-11eb-82ce-2ac04688d1db.png)
+
+Portanto, vemos que existe uma relação "é um", onde *ContaEmpresa* "é uma" *Conta*. Sabendo disso, podemos dizer que temos *Conta* como sendo a Superclasse (classe base) e *ContaEmpresa* sendo uma Subclasse (classe derivada). Finaliza-se sabendo que Herança é uma **associação entre classes.**
+
+Para enxergar a prática, realizamos o exercício proposto: 
+[Exercício sobre Reuso](https://github.com/eduardolfalcao/P2-Unifacisa/blob/master/exercicios/Reuso.md)
+[ / Resolução do Exercício]()
